@@ -9,11 +9,16 @@ using System.Windows.Forms;
 
 namespace BaCeHuH
 {
-    public partial class Form1 : Form
+    public partial class MainBue : Form
     {
-        public Form1()
+        public MainBue()
         {
             InitializeComponent();
+        }
+
+        private void MainBue_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.Text = Convert.ToString(e.X) + "_" + Convert.ToString(e.Y);
         }
     }
 }
