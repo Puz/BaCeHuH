@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("BaCeHuH")]
+[assembly: AssemblyTitle("VisualDraw_Orlov")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BaCeHuH")]
-[assembly: AssemblyCopyright("Copyright ©  2012")]
+[assembly: AssemblyCompany("vki")]
+[assembly: AssemblyProduct("VisualDraw_Orlov")]
+[assembly: AssemblyCopyright("Copyright © vki 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("53498a57-3e51-492b-b38b-863e2cb235d8")]
+[assembly: Guid("b14fc950-d950-4a68-9c5a-987fb7481279")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //
