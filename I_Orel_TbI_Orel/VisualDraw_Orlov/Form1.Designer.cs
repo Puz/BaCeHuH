@@ -112,7 +112,7 @@
             this.справкаToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(607, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(993, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -364,7 +364,7 @@
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.SplitButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(607, 477);
+            this.ClientSize = new System.Drawing.Size(993, 551);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ShapesList);
             this.Controls.Add(this.rb_line);
