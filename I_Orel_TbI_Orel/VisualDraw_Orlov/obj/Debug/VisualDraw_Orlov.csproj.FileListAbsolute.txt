@@ -32,9 +32,3 @@ F:\BACENUN\VisualDraw_Orlov\VisualDraw_Orlov\obj\Debug\VisualDraw_Orlov.Properti
 F:\BACENUN\VisualDraw_Orlov\VisualDraw_Orlov\obj\Debug\VisualDraw_Orlov.csproj.GenerateResource.Cache
 C:\Documents and Settings\puz\Мои документы\GitHub\BaCeHuH\I_Orel_TbI_Orel\VisualDraw_Orlov\obj\Debug\VisualDraw_Orlov.exe
 C:\Documents and Settings\puz\Мои документы\GitHub\BaCeHuH\I_Orel_TbI_Orel\VisualDraw_Orlov\obj\Debug\VisualDraw_Orlov.pdb
-C:\Documents and Settings\puz\Мои документы\GitHub\BaCeHuH\I_Orel_TbI_Orel\VisualDraw_Orlov\bin\Debug\VisualDraw_Orlov.exe
-C:\Documents and Settings\puz\Мои документы\GitHub\BaCeHuH\I_Orel_TbI_Orel\VisualDraw_Orlov\bin\Debug\VisualDraw_Orlov.pdb
-C:\Documents and Settings\puz\Мои документы\GitHub\BaCeHuH\I_Orel_TbI_Orel\VisualDraw_Orlov\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\puz\Мои документы\GitHub\BaCeHuH\I_Orel_TbI_Orel\VisualDraw_Orlov\obj\Debug\VisualDraw_Orlov.MainScreen.resources
-C:\Documents and Settings\puz\Мои документы\GitHub\BaCeHuH\I_Orel_TbI_Orel\VisualDraw_Orlov\obj\Debug\VisualDraw_Orlov.Properties.Resources.resources
-C:\Documents and Settings\puz\Мои документы\GitHub\BaCeHuH\I_Orel_TbI_Orel\VisualDraw_Orlov\obj\Debug\VisualDraw_Orlov.csproj.GenerateResource.Cache
