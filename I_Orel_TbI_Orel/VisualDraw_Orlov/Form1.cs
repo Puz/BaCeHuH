@@ -128,6 +128,7 @@ namespace VisualDraw_Orlov
                          p.SaveTo(sw);
                     }
             sw.Close();
+            Refresh();
         }
 
         private void открытьToolStripMenuItem_Click(object sender, EventArgs e)
@@ -156,7 +157,7 @@ namespace VisualDraw_Orlov
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            this.Refresh();
+         //   this.Refresh();
         }
 
         private void MainScreen_MouseLeave(object sender, EventArgs e)

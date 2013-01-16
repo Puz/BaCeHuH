@@ -17,47 +17,12 @@ namespace VisualDraw_Orlov
 
     public class Cross : Shape
     {
-     int X, Y;
-
-        public Cross(int _X, int _Y)
-        {
-            this.X = _X; this.Y = _Y;
-        }
-
-        public Cross(StreamReader sr)
-        {
-            string line = sr.ReadLine();
-            string[] foo = line.Split(' ');
-            X = Convert.ToInt32(foo[0]);
-            Y = Convert.ToInt32(foo[1]);
-        }
-
-        public override void DrawWith(Graphics g, Pen p)
-        {
-            g.DrawLine(p, X - 4, Y - 4, X + 4, Y + 4);
-            g.DrawLine(p, X + 4, Y - 4, X - 4, Y + 4);
-
-        }
-        public override void SaveTo(StreamWriter sw)
-        {
-            sw.WriteLine("Cross");
-            sw.WriteLine(Convert.ToString(X) + " " + Convert.ToString(Y));
-        }
-        public override string DescriptionString
-        {
-            get { return ("Cross(" + Convert.ToString(X) + ";" + Convert.ToString(Y) + ")"); }
-        }
-
-    }
-   /* public class Circle : Shape
-    {
-        Point C;
-        public Circle(int _X, int _Y)
+           Point C;
+           public Cross(int _X, int _Y)
         {
             C = new Point(_X, _Y);
         }
-
-        public Circle(StreamReader sr)
+        public Cross(StreamReader sr)
         {
             string line = sr.ReadLine();
             string[] foo = line.Split(' ');
@@ -67,19 +32,20 @@ namespace VisualDraw_Orlov
 
         public override void DrawWith(Graphics g, Pen p)
         {
-            g.DrawEllipse(p, C.X - 5, C.Y - 5, 10, 10);
+            g.DrawLine(p, C.X - 4, C.Y - 4, C.X + 4, C.Y + 4);
+            g.DrawLine(p, C.X + 4, C.Y - 4, C.X - 4, C.Y + 4);
         }
-         public override void SaveTo(StreamWriter sw)
+        public override void SaveTo(StreamWriter sw)
         {
-            sw.WriteLine("Circle");
+            sw.WriteLine("Cross");
             sw.WriteLine(Convert.ToString(C.X) + " " + Convert.ToString(C.Y));
         }
-         public override string DescriptionString
-         {
-             get { return ("Circle(" + Convert.ToString(C.X) + ";" + Convert.ToString(C.Y) + ")"); }
-         }
-    }*/
-    //
+        public override string DescriptionString
+        {
+            get { return ("Cross(" + Convert.ToString(C.X) + ";" + Convert.ToString(C.Y) + ")"); }
+        }
+
+    }
     public class Circle : Shape
     {
         Point C, A;
@@ -94,8 +60,8 @@ namespace VisualDraw_Orlov
         {
             string line = sr.ReadLine();
             string[] foo = line.Split(' ');
-           // C.X = Convert.ToInt32(foo[0]);
-           // C.Y = Convert.ToInt32(foo[1]);
+            C.X = Convert.ToInt32(foo[0]);
+            C.Y = Convert.ToInt32(foo[1]);
         }
 
         public override void DrawWith(Graphics g, Pen p)
